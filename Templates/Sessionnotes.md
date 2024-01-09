@@ -1,6 +1,6 @@
 ---
 date: {{date}}{{time}}
-campagne: "[[Symphonie der Erde]]"
+campaign: "[[Symphonie der Erde]]"
 world: "[[Drachma]]"
 tags:
   - PnP
@@ -30,5 +30,5 @@ references:
 
 ---
 ```dataview
-TABLE date as "Played at", campagne as "Campagne" FROM "Worlds" WHERE date != NULL AND econtains(type,"session") SORT date DESC LIMIT 3
+TABLE date as "Played at", campaign as "Campaign" FROM "Worlds" WHERE date != NULL AND econtains(type,"session") SORT date DESC LIMIT 3
 ```
