@@ -1,11 +1,11 @@
 ---
 date: {{date}}{{time}}
-welt: "[[Drachma]]"
+world: "[[Drachma]]"
 tags:
   - PnP
   - FabulaUltima
 type:
-  - campagne
+  - campaign
 references:
   - "[[Fabula-Ultima-Core-Rulebook.pdf]]"
 ---
