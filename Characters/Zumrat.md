@@ -1,6 +1,6 @@
 ---
 date: 202210021524
-campagne: Symphonie der Erde
+campaign: [[Symphony of the Earth]]
 tags:
   - PnP
   - FabulaUltima
