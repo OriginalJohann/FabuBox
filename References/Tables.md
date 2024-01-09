@@ -15,19 +15,19 @@ TABLE level as "Level", species as "Species" FROM "Beastiary" WHERE name != NULL
 ^beastiary
 
 ```dataview
-TABLE date as "Played at ", campagne as "Campagne" FROM "Worlds" WHERE date != NULL AND econtains(type,"session") SORT date DESC
+TABLE date as "Played at ", campaign as "Campaign" FROM "Worlds" WHERE date != NULL AND econtains(type,"session") SORT date DESC
 ```
 
 ^sessions
 
 ```dataview
-TABLE date as "Created at", campagne as "Campagne" FROM "Charakters" WHERE campagne != NULL AND econtains(type,"npc") SORT date
+TABLE date as "Created at", campaign as "Campaign" FROM "Charakters" WHERE campaign != NULL AND econtains(type,"npc") SORT date
 ```
 
 ^NPCs
 
 ```dataview
-TABLE date as "Created at", campagne as "Campagne" FROM "Charakters" WHERE campagne != NULL AND econtains(type,"pc") AND !contains(tags,"npc") SORT date
+TABLE date as "Created at", campaign as "Campaign" FROM "Charakters" WHERE campaign != NULL AND econtains(type,"pc") AND !contains(tags,"npc") SORT date
 ```
 
 ^PCs
