@@ -1,0 +1,185 @@
+/*Make blockquotes match with wiki-entries*/
+.markdown-preview-view blockquote {
+    font-style: italic;
+    background: var(--md-color-blockquotes-bg);
+    padding: var(--scale-2-8) var(--scale-2-18) var(--scale-2-8) var(--scale-2-18);
+    border-radius: var(--scale-2-4);
+    border: 1px solid var(--md-color-blockquotes-border);
+    margin-left: var(--scale-0-0);
+    margin-right: 20vw;
+}
+
+/*
+    Fade the pane header controls unless hovered (just to reduce/minimise distraction) 
+    does this per individual control to easily leave link and pin slightly more visible even if not hovered, and 
+    as an easy way to do a snazzy transition delay stagger in and out ;)    
+*/
+
+/* not hovered ie. on cursor exit from the header */
+.view-header:not(:hover) a.view-action[aria-label*="Preview"],
+.view-header:not(:hover) a.view-action[aria-label*="Edit"]  { 
+  opacity: 0.1;
+  transition: opacity .25s ease-in-out;
+  transition-delay: 0ms;
+}
+
+.view-header:not(:hover) a.view-action[aria-label*="link"] { 
+  opacity: 0.55;
+  transition: opacity .25s ease-in-out;
+  transition-delay: 20ms;
+}
+
+.view-header:not(:hover) a.view-action[aria-label*="Pin"] { 
+  opacity: 0.35;
+  transition: opacity .25s ease-in-out;
+  transition-delay: 40ms;
+}
+
+.view-header:not(:hover) a.view-action[aria-label*="Close"] { 
+  opacity: 0.1;
+  transition: opacity .25s ease-in-out;
+  transition-delay: 60ms;
+}
+
+.view-header:not(:hover) a.view-action[aria-label*="More"] { 
+  opacity: 0.1;
+  transition: opacity .25s ease-in-out;
+  transition-delay: 80ms;
+}
+
+/*  hovered ie. on cursor entry to the header */
+.view-header:hover a.view-action[aria-label*="Preview"],
+.view-header:hover a.view-action[aria-label*="Edit"]  { 
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  transition-delay: 0ms;
+}
+
+.view-header:hover a.view-action[aria-label*="link"] { 
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  transition-delay: 20ms;
+}
+
+.view-header:hover a.view-action[aria-label*="Pin"] { 
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  transition-delay: 40ms;
+}
+
+.view-header:hover a.view-action[aria-label*="Close"] { 
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  transition-delay: 60ms;
+}
+
+.view-header:hover a.view-action[aria-label*="More"] { 
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  transition-delay: 80ms;
+}
+
+/*============bigger link popup preview  ================*/
+.popover.hover-popover {
+    transform: scale(0.8); /* makes the content smaller */
+    max-height: 1000px;    /* was 300 */
+    min-height: 800px;
+    width: 800px;     /* was 400 */
+}
+.popover.hover-popover .markdown-embed {
+    max-height: 1000px;
+    min-height: 800px;
+}
+
+/*Lines on Headings*/
+h1 {
+	display: flex;
+	width: 100%;
+	align-items: left;
+}
+h1:before {
+    content: '';
+	background: var(--h1-color);
+	height: .1em;
+	margin: .2em;
+    transform: translateY(300%);
+    width: 5%;
+}
+h1:after{
+	content: '';
+	background: var(--h1-color);
+	height: .1em;
+	margin: .2em;
+    transform: translateY(300%);
+	flex: 1;
+}
+
+/*Lines on Headings-Aside*/
+h6 {
+	display: flex;
+	width: 100%;
+	align-items: left;
+}
+h6:before {
+    content: '';
+	background: var(--h6-color);
+	height: .1em;
+	margin: .2em;
+    transform: translateY(500%);
+    flex: 1;
+}
+h6:after{
+	content: '';
+	background: var(--h6-color);
+	height: .1em;
+	margin: .2em;
+    transform: translateY(500%);
+	flex: 1;
+}
+
+/*Blockquotes*/
+.markdown-preview-view blockquote {
+    padding: 0.5em;
+    border: 0.1em solid var(--frame-outline-color);
+}
+
+/*Media Buttons*/
+button:not(.clickable-icon) {
+    background-color: #000000;
+    box-shadow: var(--input-shadow);
+}
+.plyr--audio .plyr__controls {
+    background: #000000;
+}
+.plyr__control {
+    color: #ffffff;
+}
+
+/*Checkboxfix*/
+.markdown-preview-view ul > li.task-list-item {
+  /* This is to help center the checkbox with other unordered list items; you may want/need to tweak this value for your current theme */
+  margin-left: 0.35em;
+}
+.markdown-preview-view ul > li.task-list-item.is-checked,
+.markdown-preview-view ul > li > ul > li.task-list-item.is-checked,
+.markdown-preview-view ul > li.task-list-item > ul > li.task-list-item.is-checked {
+  text-decoration: line-through;
+  color: var(--text-faint);
+}
+.markdown-preview-view ul > li.task-list-item.is-checked > ul > li {
+  color: var(--text-normal);
+}
+
+/*Fixed Menuebuttons*/
+button:not(.clickable-icon) {
+    background-color: var(--frame-outline-color);
+    box-shadow: var(--input-shadow);
+    color: white;
+}
+
+/*Center Images*/
+img[alt*="center"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

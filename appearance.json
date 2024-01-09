@@ -1,0 +1,24 @@
+{
+  "baseFontSize": 18,
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "ryuutama_statblock_snippet",
+    "S - Encoded Icons",
+    "ITS_alternate_themes",
+    "daschboardplusplus",
+    "fabulaultima_statblock_snippet",
+    "S-Callouts",
+    "fabulaultima-statblock",
+    "wiki-infobox",
+    "custom",
+    "callouts",
+    "clean-embeds-all",
+    "headings"
+  ],
+  "theme": "moonstone",
+  "accentColor": "#2b4a42",
+  "nativeMenus": false,
+  "interfaceFontFamily": "PT Sans",
+  "monospaceFontFamily": "PT Sans",
+  "textFontFamily": "PT Sans"
+}

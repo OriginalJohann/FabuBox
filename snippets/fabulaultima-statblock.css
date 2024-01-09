@@ -1,0 +1,10 @@
+.statblock.fabulaultima {
+    --statblock-primary-color: #fdfdfd;
+    --statblock-rule-color: #7c5189;
+    --statblock-bar-color: #562c56;
+    --statblock-background-color: #fdfdfd;
+    --statblock-font-color: #000000;
+    --statblock-property-name-font-color: var(--statblock-font-color);
+    --statblock-property-font-color: var(--statblock-font-color);
+    --statblock-heading-font-color: var(--statblock-font-color);
+}
