@@ -23,7 +23,7 @@ type:
 ### Campagnes
 
 ```dataview
-TABLE date as "Created at" FROM "Worlds" WHERE contains(world,[[Drachma]]) AND econtains(type,"campagne") SORT date
+TABLE date as "Created at" FROM "Worlds" WHERE contains(world,[[Drachma]]) AND econtains(type,"campaign") SORT date
 ```
 
 ### Sessions
