@@ -6,7 +6,6 @@ tags:
   - FabulaUltima
 references:
   - "[[Fabula-Ultima-Core-Rulebook.pdf]]"
-  - "https://drive.google.com/drive/folders/1Czg2tr1sjvjLpaXgAKcE6kc0JF8wis7u?usp=drive_link"
 type:
   - character
   - pc
