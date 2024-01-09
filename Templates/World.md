@@ -19,7 +19,7 @@ type:
 
 ## History
 > At the beginning there was a dragon...
-### Campagnes
+### Campaigns
 
 ```dataview
 TABLE date as "Created at" FROM "Worlds" WHERE contains(world,[[Drachma]]) AND econtains(type,"campaign") SORT date
