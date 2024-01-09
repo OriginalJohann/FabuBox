@@ -22,13 +22,13 @@ type:
 ### Campagnes
 
 ```dataview
-TABLE date as "Erstellt am" FROM "Welten" WHERE contains(welt,[[Drachma]]) AND econtains(type,"kampagne") SORT date
+TABLE date as "Created at" FROM "Worlds" WHERE contains(world,[[Drachma]]) AND econtains(type,"campaign") SORT date
 ```
 
 ### Sessions
 
 ```dataview
-TABLE date as "Gespielt am" FROM "Welten" WHERE date != NULL AND econtains(welt,[[Drachma]]) AND econtains(type,"session") SORT date DESC LIMIT 10
+TABLE date as "Played at" FROM "Worlds" WHERE date != NULL AND econtains(world,[[Drachma]]) AND econtains(type,"session") SORT date DESC LIMIT 10
 ```
 
 
