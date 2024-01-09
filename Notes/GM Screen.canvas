@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"type":"text","text":"[![[fabula_ultima.webp|300]]](Fabula-Ultima-Core-Rulebook.pdf)[![[techno_fantasy.webp|323]]](Fabula-Ultima-Techno-Fantasy.pdf)[![[high_fantasy.webp|300]]](Fabula-Ultima-Atlas-High-Fantasy.pdf)\n\n[![[classes.webp|300]]](Fabula-Ultima-Class-References.pdf)[![[edgar_supp.webp|350]]](Fabula-Ultima-Bonus-02-Edgar-eng.pdf)[![[player_ref.webp|330]]](Fabula-Ultima-Player-Reference.pdf)\n\n[![[playtest.webp|300|center]]](Fabula-Ultima-Playtest-Materials.pdf)\n","id":"96d4b84a5c4db456","x":-1457,"y":-720,"width":1097,"height":1400},
+		{"type":"text","text":"# Situations\n![[Tables#^situations]]","id":"536ca936f082df0b","x":-327,"y":322,"width":567,"height":358,"color":"6"},
+		{"type":"text","text":"# Beastiary\n![[Tables#^beastiary]]","id":"561c446b76fad5fc","x":-327,"y":-360,"width":567,"height":640,"color":"6"},
+		{"id":"c36e3276d3f12119","type":"text","text":"# Sessions\n![[Tables#^sessions]] ","x":280,"y":80,"width":365,"height":600,"color":"6"},
+		{"type":"text","text":"# NPCs\n![[Tables#^NPCs]] ","id":"c8cc9062d7693ed2","x":-327,"y":-720,"width":567,"height":320,"color":"6"},
+		{"id":"c3c9fedbeea84ab9","type":"text","text":"# Referenzen\n![[Tables#^references]] ","x":280,"y":-720,"width":365,"height":760,"color":"6"}
+	],
+	"edges":[]
+}

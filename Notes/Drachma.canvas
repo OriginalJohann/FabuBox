@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"a7f079d70a6ca611","type":"text","text":"# Weißfels\n[![[weissfels.webp]]](Weißfels)","x":-1320,"y":-598,"width":250,"height":418},
+		{"id":"096bca8b9034aba2","type":"text","text":"# Ifa\n[![[ifa.webp]]](Ifa.md)","x":-1359,"y":-80,"width":329,"height":400},
+		{"id":"55dbc231cfab6fda","type":"text","text":"# Leef-Ebenen\n[![[leef.webp]]](Leef-Ebenen)","x":-800,"y":-440,"width":270,"height":440},
+		{"id":"4c0c5c9eff10e449","type":"text","text":"# Immergrünwald\n[![[immergruen.webp]]](Immergrünwald)","x":-880,"y":240,"width":270,"height":460},
+		{"id":"ffbf4ff1d05beadf","type":"text","text":"# Ewigwintersee\n[![[everwinter.webp]]](Ewigwintersee)","x":-523,"y":120,"width":231,"height":418},
+		{"id":"f2b9b007f3247902","type":"text","text":"# Artienna\n[![[artienna.webp]]](Artienna)","x":-407,"y":-390,"width":400,"height":340},
+		{"id":"2d998e0d680fb435","type":"text","text":"# Leef-Hochland\n[![[leef_highlands.webp]]](Leef-Hochland)","x":160,"y":-374,"width":392,"height":310},
+		{"id":"ef11e8d49b46d180","type":"text","text":"# Sanktum Dominum\n[![[sanktdom.webp]]](Sanktum-Dominum)","x":116,"y":-800,"width":480,"height":319},
+		{"id":"1b73b86a9b3607f6","type":"text","text":"# Drachenschwingengebirge\n[![[drachenschwingen.webp]]](Drachenschwingengebirge)","x":680,"y":-389,"width":471,"height":340},
+		{"id":"0fd2e39e9177bfce","type":"text","text":"# Tinkerstadt\n[![[tinkertown.webp]]](Tinkerstadt)","x":1280,"y":-418,"width":331,"height":396},
+		{"id":"d65e4fc8e6439f3c","type":"text","text":"![[windrose.webp]]","x":1151,"y":174,"width":321,"height":310,"color":"#ffffff"},
+		{"id":"f642617d09108959","type":"text","text":"# Haestings Hollow\n[![[haestings_hollow.webp]]](Haestings-Hollow)","x":800,"y":-1080,"width":440,"height":400,"color":"4"}
+	],
+	"edges":[
+		{"id":"ab15f88880eb496f","fromNode":"a7f079d70a6ca611","fromSide":"right","toNode":"55dbc231cfab6fda","toSide":"left","toEnd":"none","label":"0.5"},
+		{"id":"f395b57104c968ef","fromNode":"096bca8b9034aba2","fromSide":"right","toNode":"55dbc231cfab6fda","toSide":"left","toEnd":"none","label":"0.5"},
+		{"id":"d13b7f41da5e6387","fromNode":"55dbc231cfab6fda","fromSide":"bottom","toNode":"ffbf4ff1d05beadf","toSide":"top","toEnd":"none","label":"1"},
+		{"id":"bf20fc6352290248","fromNode":"55dbc231cfab6fda","fromSide":"right","toNode":"f2b9b007f3247902","toSide":"left","toEnd":"none","label":"1"},
+		{"id":"55283df607f28f5e","fromNode":"f2b9b007f3247902","fromSide":"right","toNode":"2d998e0d680fb435","toSide":"left","toEnd":"none","label":"1"},
+		{"id":"f1bd4161cdda0d73","fromNode":"2d998e0d680fb435","fromSide":"right","toNode":"1b73b86a9b3607f6","toSide":"left","toEnd":"none","label":"1"},
+		{"id":"792649378e363276","fromNode":"2d998e0d680fb435","fromSide":"top","toNode":"ef11e8d49b46d180","toSide":"bottom","toEnd":"none","label":"1"},
+		{"id":"9b985ae71a9d8bac","fromNode":"1b73b86a9b3607f6","fromSide":"right","toNode":"0fd2e39e9177bfce","toSide":"left","toEnd":"none","label":"0.5"},
+		{"id":"0247e10be65013e1","fromNode":"55dbc231cfab6fda","fromSide":"bottom","toNode":"4c0c5c9eff10e449","toSide":"top","toEnd":"none","label":"2"},
+		{"id":"bb19a217fee4fc09","fromNode":"ef11e8d49b46d180","fromSide":"right","toNode":"f642617d09108959","toSide":"left","toEnd":"none"}
+	]
+}
