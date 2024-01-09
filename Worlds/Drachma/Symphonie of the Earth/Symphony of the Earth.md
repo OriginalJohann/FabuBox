@@ -5,7 +5,7 @@ tags:
   - PnP
   - FabulaUltima
 type:
-  - campagne
+  - campaign
 references:
   - "[[Fabula-Ultima-Core-Rulebook.pdf]]"
 ---
@@ -29,13 +29,13 @@ references:
 ### Player
 
 ```dataview
-TABLE FROM "Characters" WHERE contains(campagne,[[Symphonie of the Earth]]) AND econtains(type,"pc")
+TABLE FROM "Characters" WHERE contains(campaign,[[Symphony of the Earth]]) AND econtains(type,"pc")
 ```
 
 ### Sessions
 
 ```dataview
-TABLE date as "Played at" FROM "Worlds" WHERE date != NULL AND contains(campagne,[[Symphonie of the Earth]]) SORT date DESC LIMIT 5
+TABLE date as "Played at" FROM "Worlds" WHERE date != NULL AND contains(campaign,[[Symphony of the Earth]]) SORT date DESC LIMIT 5
 ```
 
 
