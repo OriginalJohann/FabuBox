@@ -1,7 +1,7 @@
 ---
 date: {{date}}{{time}}
 name: {{title}}
-campagne: "[[Symphonie der Erde]]"
+campaign: "[[Symphonie der Erde]]"
 world: "[[Drachma]]"
 tags:
   - PnP
