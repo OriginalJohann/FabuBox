@@ -35,9 +35,10 @@ My most important directory is "Worlds". Here I give an overview over created wo
 1. Save your creatures by clicking on the three dots next to the rendered statblock
 2. For saving space convert all your images to .webp-format
 3. Feel free to use statblocks exported from https://fabula-ultima-helper.web.app/
-4. If you don't like my way of making maps, I can recommend the Leaflet-plugin (https://github.com/javalent/obsidian-leaflet) for making better maps
+4. If you don't like my way of making maps, I can recommend the Leaflet-plugin (https://github.com/javalent/obsidian-leaflet) for creating better and more interactive ones
 5. For drawing on a canvas use the Excalidraw-plugin (https://github.com/zsviczian/obsidian-excalidraw-plugin)
 
+***
 
 Fabula Ultima is a award winning TTRPG made by Emanuele Galleto published by Need Games (https://www.needgames.it/fabula-ultima-en/)
 
