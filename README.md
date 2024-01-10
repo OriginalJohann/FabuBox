@@ -44,4 +44,4 @@ Fabula Ultima is a award winning TTRPG made by Emanuele Galleto published by Nee
 
 Visit the official discord (https://discord.gg/G9qGbn2)
 
-Image of Ifa from https://www.pinterest.com/pin/chu-u-in-2023--888757307695752410/
+Images for mapping taken from various sources. Images for artworks taken from Fabula Ultima itself. They are not my own and may not be used for commercial purposes.
