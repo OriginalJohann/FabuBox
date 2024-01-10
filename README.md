@@ -43,3 +43,5 @@ My most important directory is "Worlds". Here I give an overview over created wo
 Fabula Ultima is a award winning TTRPG made by Emanuele Galleto published by Need Games (https://www.needgames.it/fabula-ultima-en/)
 
 Visit the official discord (https://discord.gg/G9qGbn2)
+
+Image of Ifa from https://www.pinterest.com/pin/chu-u-in-2023--888757307695752410/
