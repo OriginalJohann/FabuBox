@@ -1,18 +1,22 @@
+<%*
+let title = "Session " + tp.date.now("YYYYMMDD")
+await tp.file.rename(title)
+-%>
 ---
-date: {{date}}{{time}}
-campaign: "[[Symphonie der Erde]]"
-world: "[[Drachma]]"
+date: <% tp.file.creation_date("YYYYMMDDHHmm") %>
+kampagne: "[[Symphonie der Erde]]"
+welt: "[[Drachma]]"
 tags:
   - PnP
   - FabulaUltima
 type:
   - session
-references:
+referenzen:
   - "[[Fabula-Ultima-Core-Rulebook.pdf]]"
 ---
-# {{title}}
+# <% title %>
 
-### Notes
+### Notizen
 
 - 
 
@@ -20,7 +24,7 @@ references:
 
 - 
 
-### Player
+### Spieler
 
 - 
 
@@ -29,6 +33,7 @@ references:
 - 
 
 ---
-```dataview
-TABLE date as "Played at", campaign as "Campaign" FROM "Worlds" WHERE date != NULL AND econtains(type,"session") SORT date DESC LIMIT 3
-```
+> [!sessions]- Sessions
+> ```dataview
+> TABLE date as "Gespielt am", kampagne as "Kampagne" FROM "Welten" WHERE date != NULL AND econtains(type,"session") SORT date DESC LIMIT 3
+> ```

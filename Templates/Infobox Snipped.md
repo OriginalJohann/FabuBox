@@ -1,13 +1,15 @@
 > [!infobox]
-> ###### **Information**
-> ###### General Info
+> # **Informationen**
+> ###### Allgemein
 > | Type |  Stat |
 > |---|---|
-> | Name | Harald |
-> | Profession | Cook |
-> ###### Goals
-> - find Fame and Wealth
-> ###### Important Locations
-> - [[Ifa]]
-> ###### Important NPCs
-> - [[BBEG]]
+> | Jahreszeit | `= this.season` |
+> | Ryuujin | [[Zumrat]] |
+> ###### Ziele
+> - [[Symphonic Crystal]] finden
+> - [[Maestro]] aufhalten
+> - Ende der Welt verhindern
+> ###### Wichtige Orte
+> - [[Weißfels]]
+> ###### Wichtige NPCs
+> - [[Maestro]]

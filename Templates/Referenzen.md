@@ -7,7 +7,7 @@ tags:
   - FabulaUltima
 type:
   - reference
-references:
+referenzen:
   - "[[Fabula-Ultima-Core-Rulebook.pdf]]"
 ---
 # {{title}}

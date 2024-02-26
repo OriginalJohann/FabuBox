@@ -7,29 +7,28 @@ type:
 ---
 # Home
 
-## Shortcuts
+> [!homefirst] [[GM Screen.canvas|GM Screen]]
 
-[[GM Screen.canvas|GM Screen]]
-[[Seeds]]
-[[Notes]]
+> [!homesecond] [[Seeds]]
 
-```ad-hint
-title: Shortcuts
-Command Pallette = CTRL + P
-```
+> [!homethird] [[Notes]]
 
-## Sessions
-
-![[Tables#^sessions]]
-
+> [!note] Comm. Pallette = CTRL + P
 
 ---
-```dataview
-TABLE dateformat(file.mtime, "dd.MM.yyyy - HH:mm") AS "Last modified"
-FROM ""
-SORT file.mtime DESC
-LIMIT 5
-```
+
+> [!data]- Last Modified
+> ```dataview
+> TABLE dateformat(file.mtime, "dd.MM.yyyy - HH:mm") AS "Last modified"
+> FROM ""
+> SORT file.mtime DESC
+> LIMIT 5
+> ```
+
+---
+>[!sessions]- Sessions
+> ![[Tables#^sessions]]
+
 
 
 
