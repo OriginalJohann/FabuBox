@@ -6,11 +6,12 @@ My Obsidian-vault for preparing Fabula Ultima TTJRPG and world building.
 2. Open Obsidian.md and clock "Open folder as vault" choosing the created directory
 3. Move appearence.json into the newly created ".obsidian" folder (mainly for accent color)
 4. Move snippets into ".obsidian"
-5. Use the community plugins to install **Admonition**, **Advanced Tables**, **Dataview**, **Fantasy Statblocks**, **Homepage**, **Image Converter**, **Minimal Theme Settings**, **Omnisearch** and **Style Settings**
+5. Use the community plugins to install **Admonition**, **Advanced Tables**, **Dataview**, **Fantasy Statblocks**, **Homepage**, **Image Converter**, **Minimal Theme Settings**, **Omnisearch**, **Templater** and **Style Settings**
 6. Install the **Minimal Theme**
-7. Move data.json into ".obsidian/plugins/obsidian-5e-statblocks" (has template for FabU statblocks)
-8. Set directories as needed in config (e.g. default Data- and Template-directories)
-9. Enable all snippets under "Appearance"
+7. Import FabulaUltima.json into **Fantasy Statblocks** via it's menue
+8. Set Folder Templates in the options for **Templater**, using the neccessary templates for each folder
+9. Set directories as needed in config (e.g. default Data- and Template-directories)
+10. Enable all snippets under "Appearance"
 
 ## Usage
 The "Beastiary" is used for storing all your adversary creations. Feel free to use Fultimator exports instead of my statblocks. 
@@ -29,7 +30,9 @@ The concept of conflicts is realized in the "Situations" section. Players tend t
 
 For writing down new notes faster I made a bunch of "Templates" for all kinds of notes used inside this vault.
 
-My most important directory is "Worlds". Here I give an overview over created worlds and the campaigns played in them. Inside the campaign directory I always create a session-note at the start of a new session. Right now I have to write down the current date myself. Maybe I will automate that with Templater later (https://github.com/SilentVoid13/Templater).
+My most important directory is "Worlds". Here I give an overview over created worlds and the campaigns played in them. Inside the campaign directory I always create a session-note at the start of a new session.
+ 
+**UPDATE:** I am finally using **Templater** for automation of my note creation. If set up correctly, you will be asked about the title of your newly created note upon creating one inside of a folder (except for sessions because they automatically get a name with the current timestamp).
 
 ## Tips
 1. Save your creatures by clicking on the three dots next to the rendered statblock
