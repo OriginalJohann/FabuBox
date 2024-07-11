@@ -41,6 +41,27 @@ My most important directory is "Worlds". Here I give an overview over created wo
 4. If you don't like my way of making maps, I can recommend the Leaflet-plugin (https://github.com/javalent/obsidian-leaflet) for creating better and more interactive ones
 5. For drawing on a canvas use the Excalidraw-plugin (https://github.com/zsviczian/obsidian-excalidraw-plugin)
 
+## Example Images
+
+![Bildschirmfoto vom 2024-07-11 12-28-39](https://github.com/OriginalJohann/FabuBox/assets/13522327/7886a5b2-15fd-486e-abc3-ebf5e07af8f1|width=100)
+Home page of the vault with useful shortcuts
+___
+![Bildschirmfoto vom 2024-07-11 12-24-38](https://github.com/OriginalJohann/FabuBox/assets/13522327/7b1c48e5-a4b8-4010-a92e-1064bd8c040f|width=100)
+GM screen
+___
+![Bildschirmfoto vom 2024-07-11 12-28-13](https://github.com/OriginalJohann/FabuBox/assets/13522327/95861e11-7bba-4277-a95a-2ade51d70ae1|width=100)
+Character page (shows AI generated art!)
+___
+![Bildschirmfoto vom 2024-07-11 12-26-52](https://github.com/OriginalJohann/FabuBox/assets/13522327/3e9d7f33-fb26-4a62-83f1-336bb05d1ea2|width=100)
+Fantasy statblock
+___
+![Bildschirmfoto vom 2024-07-11 12-27-09](https://github.com/OriginalJohann/FabuBox/assets/13522327/e57496e9-d481-462d-a4eb-6577c11a9171|width=100)
+Fantasy statblock markdown
+___
+![Bildschirmfoto vom 2024-07-11 12-29-43](https://github.com/OriginalJohann/FabuBox/assets/13522327/9e5a3eda-7bb1-472a-acc3-914695f66711|width=100)
+Sessions template
+
+
 ***
 
 Fabula Ultima is a award winning TTRPG made by Emanuele Galleto published by Need Games (https://www.needgames.it/fabula-ultima-en/)
